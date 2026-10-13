@@ -12,7 +12,7 @@ An exemplar is any finished work worth learning from because it can be seen as s
 ## Procedure
 1. Study the exemplar the user gives and identify its blocks of knowledge: the distinct design ideas it contains. Keep the blocks and details the learner needs to understand the design. Leave out inventories (every file, label, or setting) unless an item illustrates a point.
 
-2. Open with a high-level summary: what it is, the overall problem it solves, and a map of its blocks.
+2. Open with a high-level summary: what it is, the overall problem it solves, and a roadmap of its blocks.
 
 3. For each block, assuming the user has little knowledge of its domain, present in order:
     1. Rationale, why it exists, in common language
