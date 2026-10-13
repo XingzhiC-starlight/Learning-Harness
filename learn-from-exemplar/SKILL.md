@@ -3,7 +3,7 @@ name: problem-based learning
 description: Use when someone with basic grounding in a field wants to learn from an exemplar more advanced than their own work (e.g. a codebase, research article, book chapter, video or talk, system design, or product) by using problem-parsing and problem-solving perspective.
 ---
 
-# Learn from an exemplar
+# Problem-based learning
 
 For a learner with basic grounding who is studying work more advanced than their own. They know the basics of the general field, but not the specialized domains the exemplar draws on. Not for beginners or how-to requests.
 
