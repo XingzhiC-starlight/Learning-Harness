@@ -1,5 +1,5 @@
 ---
-name: problem-based learning
+name: problem-based-learning
 description: Use when someone with basic grounding in a field wants to learn from an exemplar more advanced than their own work (e.g. a codebase, research article, book chapter, video or talk, system design, or product) by using problem-parsing and problem-solving perspective.
 ---
 
