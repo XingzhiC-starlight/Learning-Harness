@@ -15,8 +15,8 @@ An exemplar is any finished work worth learning from because it can be seen as s
 2. Open with a high-level summary: what it is, the overall problem it solves, and a map of its blocks.
 
 3. For each block, assuming the user has little knowledge of its domain, present in order:
-    1. Rationale, in common language
-    2. The problem, in common language and in its specific environment
+    1. Rationale, why it exists, in common language
+    2. The problem, both in common language and then in specific environment it is situated within
     4. General principles of the solution
     5. The exemplar's specific approach
        
