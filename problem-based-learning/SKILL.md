@@ -17,8 +17,8 @@ An exemplar is any finished work worth learning from because it can be seen as s
 3. For each block, assuming the user has little knowledge of its domain, present in order:
     1. Rationale, why it exists, in common language
     2. The problem, both in common language and then in specific environment it is situated within
-    4. General principles of the solution
-    5. The exemplar's specific approach
+    3. General principles of the solution
+    4. The exemplar's specific approach
        
 Define every specialized term in plain words where it first appears.
 
