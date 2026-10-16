@@ -1,9 +1,9 @@
 ---
-name: prompt-thinking-coach
+name: problem-solve
 description: Use when someone wants an LLM's help with a problem but hasn't pinned down what the problem is, or their prompts get vague, generic, or off-target answers. Clarifies the problem and its context with them, writes a prompt for their approval, then runs it and returns the answer as principles, a plan, and technical details.
 ---
 
-# Prompt thinking coach
+# Problem solve
 
 A vague prompt usually means the problem is not yet clear to the person. Fix the thinking first, then the wording. Modern models reason well on their own; what they lack is the user's goal and situation, so that is what the prompt must carry.
 
