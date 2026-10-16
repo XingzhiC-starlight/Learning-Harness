@@ -1,6 +1,6 @@
 ---
 name: prompt-thinking-coach
-description: Use when someone wants an LLM's help with a problem but hasn't pinned down what the problem is, or their prompts get vague, generic, or off-target answers. Clarifies the problem and its context with them, then returns the principles behind the approach, a plan, and a ready-to-use prompt.
+description: Use when someone wants an LLM's help with a problem but hasn't pinned down what the problem is, or their prompts get vague, generic, or off-target answers. Clarifies the problem and its context with them, writes a prompt for their approval, then runs it and returns the answer as principles, a plan, and technical details.
 ---
 
 # Prompt thinking coach
@@ -13,15 +13,17 @@ A vague prompt usually means the problem is not yet clear to the person. Fix the
 
 2. **Gather context.** Only the details that would change the answer: their situation, constraints, audience, and what they have tried. Mark unknowns as assumptions.
 
-3. **Write the prompt.** State the goal, the context, the shape of answer wanted, and an invitation to question the premise if it looks mis-framed. Skip role-play, step-by-step reasoning instructions, and filler; add a role only when it supplies a perspective the context does not.
+3. **Write the prompt and show it.** State the goal, the context, and an invitation to question the premise if it looks mis-framed. Skip role-play, step-by-step reasoning instructions, and filler; add a role only when it supplies a perspective the context does not. Ask for the answer in this order, in common words, defining any specialized term where it first appears:
+    1. **Principles**: the common-sense ideas behind the approach, and why each fits this case.
+    2. **Plan**: the specific steps to take.
+    3. **Technical details and recommendations**: the specifics needed to carry out the plan.
 
-4. **Present, in order:**
-    1. **Principles**: the few ideas behind the approach, and why each fits this case.
-    2. **Plan**: the user's next steps, including how to judge the LLM's answer.
-    3. **Prompt**: in a copyable block, with a note on what changed from the original and why.
+   Show the prompt in a copyable block, with a note on what changed from the user's original and why, and ask whether it is good.
 
-Close with one line showing their thinking chain ("you started from X, the real problem is Y, so the prompt asks for Z") so they can reuse the method.
+4. **Run the prompt.** Once the user approves, send it to the model (a fresh subagent if available, otherwise answer it yourself exactly as written) and return the answer.
+
+Close with one line showing their thinking chain ("you started from X, the real problem is Y, so the prompt asked for Z") so they can reuse the method.
 
 ## Guardrails
 - Do not write the prompt before the problem is confirmed, unless the request is already specific.
-- Do not solve the underlying problem yourself unless asked.
+- Do not run the prompt until the user approves it.
