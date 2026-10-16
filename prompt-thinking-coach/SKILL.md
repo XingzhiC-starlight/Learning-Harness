@@ -13,8 +13,8 @@ A vague prompt usually means the problem is not yet clear to the person. Fix the
 
 2. **Gather context.** Only the details that would change the answer: their situation, constraints, audience, and what they have tried. Mark unknowns as assumptions.
 
-3. **Write the prompt and show it.** State the goal, the context, and an invitation to question the premise if it looks mis-framed. Skip role-play, step-by-step reasoning instructions, and filler; add a role only when it supplies a perspective the context does not. Ask for the answer in this order, in common words, defining any specialized term where it first appears:
-    1. **Principles**: the common-sense ideas behind the approach, and why each fits this case.
+3. **Write the prompt and show it.** State the goal, the context, and an invitation to question the premise if it looks mis-framed. Skip role-play, step-by-step reasoning instructions, and filler; add a role only when it supplies a perspective the context does not. Ask for the answer in this order, in plain words, defining any specialized term where it first appears:
+    1. **Principles**: the expert ideas behind the approach, abstracted from the specific implementation into the few essential elements it depends on, and why each fits this case. The ideas are professional; only the wording is plain. For example, a C++ iterator for many container types reduces to something that can move to the next item, read the current one, and tell when two positions are equal, which transfers to any language and is easier to grasp than the C++ code.
     2. **Plan**: the specific steps to take.
     3. **Technical details and recommendations**: the specifics needed to carry out the plan.
 
