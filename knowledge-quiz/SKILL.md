@@ -10,7 +10,7 @@ An answer pitched at the wrong level fails however good it is. This skill finds 
 ## Procedure
 1. **Name the subject.** List the few concepts the answer will rest on.
 
-2. **Check the profile.** If `~/.claude/learner-profile.md` exists, read it (format in learner-profile's `references/profile-contract.md`) and take the levels for those concepts. A self-reported level is a starting point, not proof.
+2. **Check the profile.** If `~/.claude/learner-profile.md` exists, read it (format in learner-profile) and take the levels for those concepts. A self-reported level is a starting point, not proof.
 
 3. **Ask only about what is left.** For concepts the profile does not cover, or with no profile, ask two or three short questions about what they have done with the subject: built, used, fixed, read. Never ask whether they know a term.
 

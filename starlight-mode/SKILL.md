@@ -15,6 +15,7 @@ One line per block: the idea, the skill, and when it applies.
 - **Fix the thinking before the wording.** `problem-identify`, when the problem is vague, a symptom, or a pre-chosen solution.
 - **Answer as a solution, not a list.** `answer-frame`, for any answer with more than one idea in it.
 - **Read it as the reader.** `reader-check`, after any answer written for a reader, before handing it over.
+- **Remember the reader, if they want.** `learner-profile`, after knowledge-quiz confirms a reader line, or when the user asks to see, save or forget what is stored.
 - **Learn an exemplar through its problems.** `research`, when studying work more advanced than the user's own.
 
 ## Playbooks
