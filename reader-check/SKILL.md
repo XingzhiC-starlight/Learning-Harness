@@ -1,6 +1,6 @@
 ---
 name: reader-check
-description: Use after any answer is written for a particular reader, from problem-solve, answer-frame, teach-the-decision, learn-the-concept, or a plain reply, and before it is handed over. Reads the finished answer as the reader described by a reader line and fixes what they could not follow.
+description: Use after any answer is written for a particular reader, from problem-identify, answer-frame, teach-the-decision, learn-the-concept, or a plain reply, and before it is handed over. Reads the finished answer as the reader described by a reader line and fixes what they could not follow.
 ---
 
 # Reader check
@@ -8,7 +8,7 @@ description: Use after any answer is written for a particular reader, from probl
 An answer can be right and still lost on its reader. This skill reads a finished answer as the person in the reader line and fixes what that person could not follow. It does not change what the answer says or how it is organized.
 
 ## Procedure
-1. **Get the reader line.** If none is given, say so, then run learning-scope, or assume a non-expert and state that assumption.
+1. **Get the reader line.** If none is given, say so, then run knowledge-quiz, or assume a non-expert and state that assumption.
 
 2. **Read the answer as that reader and check:**
     - The direct answer to the question asked comes first, not last.

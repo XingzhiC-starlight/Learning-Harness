@@ -1,9 +1,9 @@
 ---
-name: learning-scope
+name: knowledge-quiz
 description: Use before answering or explaining anything to a non-expert, when another skill asks for a reader line, or when the user asks "what level should you pitch this at". Establishes who will read the answer and what they already know about the subject at hand, and outputs one reader line that other skills put into their prompts.
 ---
 
-# Learning scope
+# Knowledge quiz
 
 An answer pitched at the wrong level fails however good it is. This skill finds out who will read it and what they already know about this subject, and writes that down as one reader line: one or two sentences giving the reader's role, what they have and haven't done with the subject, and how they will act on the answer. It only measures; it does not teach or answer.
 

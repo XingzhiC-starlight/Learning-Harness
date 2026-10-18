@@ -1,9 +1,9 @@
 ---
-name: problem-solve
+name: problem-identify
 description: Use when someone wants an LLM's help with a problem but hasn't pinned down what the problem is, their prompts get vague, generic, or off-target answers, or they say "help me figure out what I'm actually asking". Clarifies the problem and its context with them, writes a prompt for their approval, runs it, and checks the answer against what the reader knows before returning it.
 ---
 
-# Problem solve
+# Problem identify
 
 A vague prompt usually means the problem is not yet clear to the person. Fix the thinking first, then the wording. Modern models reason well on their own; what they lack is the user's goal and situation, so that is what the prompt must carry.
 
@@ -13,7 +13,7 @@ A vague prompt usually means the problem is not yet clear to the person. Fix the
 
 2. **Gather context.** Only the details that would change the answer: their situation, constraints, audience, and what they have tried. Mark unknowns as assumptions.
 
-3. **Get the reader line.** Reuse one already confirmed in this conversation; otherwise run learning-scope.
+3. **Get the reader line.** Reuse one already confirmed in this conversation; otherwise run knowledge-quiz.
 
 4. **Write the prompt and show it.** It carries:
     - the goal, the context, and an invitation to question the premise if it looks mis-framed;
