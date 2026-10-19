@@ -1,6 +1,6 @@
 ---
 name: reader-check
-description: Use after any answer is written for a particular reader, from problem-identify, answer-frame, research, or a plain reply, and before it is handed over. Reads the finished answer as the reader described by a reader line and fixes what they could not follow.
+description: Use after any answer is written for a particular reader, from problem-identify, answer-frame, analyze, or a plain reply, and before it is handed over. Reads the finished answer as the reader described by a reader line and fixes what they could not follow.
 ---
 
 # Reader check
