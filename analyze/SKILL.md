@@ -1,6 +1,6 @@
 ---
 name: analyze
-description: Use when someone with basic grounding in a field wants to learn from an exemplar more advanced than their own work (e.g. a codebase, research article, book chapter, video or talk, system design, or product) by using problem-parsing and problem-solving perspective.
+description: Use when someone who knows a field's basics wants to learn from work more advanced than their own, such as a codebase, paper, book chapter, talk, system design or product. Explains the work as a set of problems and the solutions it chose.
 ---
 
 # Analyze

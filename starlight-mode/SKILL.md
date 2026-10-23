@@ -1,6 +1,6 @@
 ---
 name: starlight-mode
-description: Use when the user states a goal and should not have to pick skills themselves, or asks for /starlight-mode. Matches the goal to a playbook and runs this repo's skills in order, naming each one.
+description: Use when the user states a goal and should not have to pick skills, or asks for /starlight-mode. Matches the goal to a playbook and runs this repo's skills in order, naming each one.
 ---
 
 # Starlight mode

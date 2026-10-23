@@ -1,6 +1,6 @@
 ---
 name: answer-frame
-description: Use when answering a question or solving a problem the user poses and they want the answer framed as problem-solving rather than a plain reply. Splits the problem into its parts and, for each, gives the part addressed, the principles behind the approach, and the specific solution, then connects the pieces into one whole solution.
+description: Use when the user wants an answer framed as problem-solving instead of a plain reply. Splits the problem into parts, gives each part's principles and solution, then shows how the parts fit together.
 ---
 
 # Answer frame

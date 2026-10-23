@@ -1,6 +1,6 @@
 ---
 name: learner-profile
-description: Use when the user wants Claude to remember what they know across conversations, says "save my profile", "show my profile", "what do you know about me", "forget that", or when knowledge-quiz has confirmed a reader line worth keeping. Stores, shows, updates and deletes one optional file, ~/.claude/learner-profile.md, recording subject by subject what the user has done and how well they know it. Only records; never measures, teaches or answers.
+description: Use when the user wants Claude to remember what they know across conversations, says "save my profile", "show my profile", "what do you know about me" or "forget that", or when knowledge-quiz confirms a reader line worth keeping. Reads and writes ~/.claude/learner-profile.md, which records per subject what the user has done and how well they know it. Does not measure, teach or answer.
 ---
 
 # Learner profile

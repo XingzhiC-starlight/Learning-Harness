@@ -1,6 +1,6 @@
 ---
 name: knowledge-quiz
-description: Use before answering or explaining anything to a non-expert, when another skill asks for a reader line, or when the user asks "what level should you pitch this at". Establishes who will read the answer and what they already know about the subject at hand, and outputs one reader line that other skills put into their prompts.
+description: Use before explaining anything to a non-expert, when another skill needs a reader line, or when the user asks "what level should you pitch this at". Finds out who will read the answer and what they know about the subject, and outputs one reader line for other skills to use.
 ---
 
 # Knowledge quiz

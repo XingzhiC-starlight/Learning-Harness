@@ -1,6 +1,6 @@
 ---
 name: map
-description: Use when explaining something structured (a system, codebase, process, organization, concept, or body of information) that is large or interconnected for this reader's knowledge level, so text alone would leave them rebuilding the structure in their head. Offer it and use it when the user agrees, or when they ask for a map, diagram, or chart. Builds a knowledge map of diagrams and reference tables paired with text, so the reader understands the subject at a structural level from the output alone.
+description: Use when explaining a system, codebase, process, organization or concept too large or interconnected for this reader to follow from text alone. Offer it first, or use it when the user asks for a map, diagram or chart. Builds diagrams and reference tables paired with text.
 ---
 
 # Map

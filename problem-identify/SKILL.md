@@ -1,6 +1,6 @@
 ---
 name: problem-identify
-description: Use when someone wants an LLM's help with a problem but hasn't pinned down what the problem is, their prompts get vague, generic, or off-target answers, or they say "help me figure out what I'm actually asking". Clarifies the problem and its context with them, writes a prompt for their approval, runs it, and checks the answer against what the reader knows before returning it.
+description: Use when someone wants an LLM's help but hasn't pinned down the problem, gets vague or off-target answers, or says "help me figure out what I'm actually asking". Clarifies the problem with them, writes a prompt for their approval, runs it, and checks the answer with reader-check.
 ---
 
 # Problem identify
